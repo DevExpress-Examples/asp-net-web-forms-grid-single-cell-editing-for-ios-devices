@@ -4,8 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 using System.Web.UI.HtmlControls;
 
 public partial class _Default : System.Web.UI.Page
@@ -25,7 +24,7 @@ public partial class _Default : System.Web.UI.Page
         tb.ClientSideEvents.LostFocus = String.Format("function (s, e) {{ onCellLostFocus(s, e, {0}); }}", visibleIndex);
     }
 
-    protected void cb_CallBack(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e)
+    protected void cb_CallBack(object source, DevExpress.Web.CallbackEventArgs e)
     {
         if (String.IsNullOrEmpty(e.Parameter)) return;
         int visibleIndex = Convert.ToInt32(e.Parameter); 

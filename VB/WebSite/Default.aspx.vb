@@ -48,8 +48,7 @@ Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxEditors
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports System.Web.UI.HtmlControls
 
 Partial Public Class _Default
@@ -67,7 +66,7 @@ Partial Public Class _Default
 		tb.ClientSideEvents.LostFocus = String.Format("function (s, e) {{ onCellLostFocus(s, e, {0}); }}", visibleIndex)
 	End Sub
 
-	Protected Sub cb_CallBack(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+	Protected Sub cb_CallBack(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
 		If String.IsNullOrEmpty(e.Parameter) Then
 			Return
 		End If
