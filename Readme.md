@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # How to implement a single cell editing feature in ASPxGridView for iOS devices
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4600/)**
+**[[Run Online]](https://codecentral.devexpress.com/128540886/)**
 <!-- run online end -->
 
 
