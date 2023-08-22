@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to implement a single cell edit feature for iOS devices
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4600/)**
+**[[Run Online]](https://codecentral.devexpress.com/128540886/)**
 <!-- run online end -->
 
 This example demonstrates how to handle an editor's `GotFocus` and `LostFocus` events to imitate a single cell edit feature for iOS devices.
