@@ -10,9 +10,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to implement a single cell editing feature in ASPxGridView for iOS devices
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128540886/)**
-<!-- run online end -->
 
 
 <p>If you take a look at the <a href="https://www.devexpress.com/Support/Center/p/E430">How to implement a single cell editing feature in the ASPxGridView</a> example, you will see that this feature doesn't work correctly on iOS devices. The keyboard appears and cells can be edited only after you click a cell twice. Editors are created dynamically on a GridView callback and iOS prevents setting focus.  Therefore, the keyboard doesn't appear since a cell editor does not exist when a user taps the cell.<br />
